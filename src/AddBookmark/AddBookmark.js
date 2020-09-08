@@ -9,7 +9,7 @@ const Required = () => (
 )
 
 class AddBookmark extends Component {
-  static PropTypes = {
+  static propTypes = {
     history: PropTypes.shape({
       push: PropTypes.func,
     }).isRequired,

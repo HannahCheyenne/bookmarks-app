@@ -8,8 +8,8 @@ it('renders without crashing', () => {
   const props = {
     id: '123',
     title: 'test title',
-    url: 'test url',
-    desciption: 'test desciption',
+    url: 'https://testurl',
+    description: 'test description',
     rating: 1,
     onClickDelete: () => {},
   }
